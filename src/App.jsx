@@ -1,10 +1,12 @@
-
+import Navbar from './components/Navbar/Navbar'
+import Main from './components/Main/Main'
 
 function App() {
 
   return (
     <>
-      <div>ciuf</div>
+      <Navbar></Navbar>
+      <Main></Main>
     </>
   )
 }
