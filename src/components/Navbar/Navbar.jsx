@@ -1,4 +1,5 @@
 import NavStyle from './Navbar.module.css'
+import logo from '../../assets/ARDO-logo.png'
 
 export default function Navbar() {
 
@@ -6,7 +7,7 @@ export default function Navbar() {
         <>
         <header className="header-container">
             <div className={NavStyle.navbar}>
-                <h1>KanDo</h1>
+                <img src={logo} alt="" />
                 <button>premimi tutto</button>
             </div>
         </header>
