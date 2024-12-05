@@ -1,4 +1,4 @@
-import logo from '../../assets/ARDO-logo.png'
+import logo from '/imgs/ARDO-logo.png'
 import style from './Footer.module.css'
 
 export default function Footer(){

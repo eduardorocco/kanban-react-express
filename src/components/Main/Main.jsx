@@ -1,5 +1,5 @@
 import Column from "../Column/Column"
-import columnArray from "../../data/column-array"
+import columnArray from "../../../server/data/column-array"
 
 
 export default function Main() {
