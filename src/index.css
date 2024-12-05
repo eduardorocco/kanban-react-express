@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
-.header-container{
+.container{
     max-width: 100%;
 }
 
-.darmode{
+.row{
+    display: flex;
+}
+
+.darkMode{
     
 }
