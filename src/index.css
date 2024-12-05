@@ -8,8 +8,18 @@
     max-width: 100%;
 }
 
+.main-container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
 .row{
     display: flex;
+}
+
+.col{
+    width: calc((100%/12)*4);
+    padding: 0 15px;
 }
 
 .darkMode{
