@@ -11,6 +11,8 @@
 .main-container{
     max-width: 80%;
     margin: 0 auto;
+    flex-grow: 1;
+    border: 1px solid black;
 }
 
 .row{
@@ -20,6 +22,12 @@
 .col{
     width: calc((100%/12)*4);
     padding: 0 15px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .darkMode{

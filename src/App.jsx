@@ -6,9 +6,11 @@ function App() {
 
   return (
     <>
+    <div>
       <Navbar></Navbar>
       <Main></Main>
       <Footer></Footer>
+    </div>
     </>
   )
 }
