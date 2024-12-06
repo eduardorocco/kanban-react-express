@@ -10,10 +10,6 @@ const columnArray = [
     {
         title: 'In revisione',
         id: 3
-    },
-    {
-        title: 'Completato',
-        id: 4
     }
 ]
 

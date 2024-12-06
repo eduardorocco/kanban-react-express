@@ -1,35 +1,34 @@
-*, ::after, ::before {
+*,
+::after,
+::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     max-width: 100%;
 }
 
-.main-container{
+.main-container {
     max-width: 80%;
     margin: 0 auto;
-    flex-grow: 1;
     border: 1px solid black;
 }
 
-.row{
+.row {
     display: flex;
 }
 
-.col{
+.col {
     width: calc((100%/12)*4);
-    padding: 0 15px;
+    padding: 15px;
 }
 
-.footer{
+.footer {
     position: fixed;
     bottom: 0;
     left: 0;
 }
 
-.darkMode{
-    
-}
+.darkMode {}
